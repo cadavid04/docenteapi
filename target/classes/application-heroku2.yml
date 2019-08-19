@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        order_inserts: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          batch_size: 50
+          lob:
+            non_contextual_creation: true
+        temp:
+          use_jdbc_metadata_defaults: false
+
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://ec2-174-129-227-51.compute-1.amazonaws.com:5432/da6v20naemqhe6
+    driver-class-name: org.postgresql.Driver
+    username: wedaroqgefwumb
+    password: af88777c31097b16015e41aefe65c78bb99901b3aa2115f1b8856d1252e15af1
+
+logging:
+  level:
+    root: INFO
+  file: docente.log

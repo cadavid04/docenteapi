@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/DocenteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroapi.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-07-31.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-01.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-02.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-03.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroesapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/docenteapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/config/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/controller/HeroController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataBaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataBaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataDuplicatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataDuplicatedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/GeneralRuntimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/GeneralRuntimeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/model/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/repository/HeroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/DocenteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/service/HeroService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/service/HeroServiceInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/udea/heroes/api/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/udea/docente/api/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/config/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/controller/HeroController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataBaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataDuplicatedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/GeneralRuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/model/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/repository/HeroRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/service/HeroService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/service/HeroServiceInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/udea/heroes/api/AppTest.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="heroesapi" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Gradle Kotlin DSL Settings" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OiG2nmsrXvBPMpMYJThGQogOYR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/co/udea/heroes/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.udea.docente.api.App" />
+      <module name="docente-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in docente-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="docente-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in heroesapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heroesapi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="docente-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.docente.api.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="heroesapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.heroes.api.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.All in heroesapi" />
+      <item itemvalue="JUnit.All in docente-api" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.App (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in docente-api" />
+        <item itemvalue="JUnit.All in heroesapi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpringRepositoriesView">
+    <option name="searchInLibraries" value="true" />
+    <option name="showAllRepositoryMethods" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="" />
+      <created>1563415108909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563415108909</updated>
+      <workItem from="1564524019752" duration="1073000" />
+      <workItem from="1564539947668" duration="55000" />
+      <workItem from="1564540372918" duration="122000" />
+      <workItem from="1564540645915" duration="1509000" />
+      <workItem from="1564545303461" duration="1140000" />
+      <workItem from="1564590561066" duration="6212000" />
+      <workItem from="1564609911252" duration="5191000" />
+      <workItem from="1564682629865" duration="4817000" />
+      <workItem from="1564777461895" duration="14236000" />
+      <workItem from="1564858619561" duration="14193000" />
+      <workItem from="1564934984654" duration="1357000" />
+      <workItem from="1565443865055" duration="333000" />
+      <workItem from="1565451963331" duration="575000" />
+      <workItem from="1565657445471" duration="553000" />
+      <workItem from="1565700268547" duration="242000" />
+      <workItem from="1565707344698" duration="331000" />
+      <workItem from="1565708431220" duration="492000" />
+      <workItem from="1566223208612" duration="1616000" />
+      <workItem from="1566224911717" duration="2669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/heroesapi$App.ic" NAME="App Coverage Results" MODIFIED="1564855693647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.*</FILTER>
+    </SUITE>
+  </component>
+</project>
