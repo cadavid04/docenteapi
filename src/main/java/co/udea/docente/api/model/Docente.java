@@ -2,7 +2,7 @@ package co.udea.docente.api.model;
 
 import javax.persistence.*;
 @Entity
-@Table(name = "docente")
+@Table(name = "docentes")
 public class Docente {
     @Id
     @Column(name = "id")
