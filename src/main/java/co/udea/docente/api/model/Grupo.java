@@ -31,6 +31,9 @@ public class Grupo {
         this.estado = estado;
         this.periodo = periodo;
     }
+    public Grupo() {
+
+    }
 
     public int getId() {
         return id;

@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/GrupoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docente.log.2019-09-02.0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/GrupoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/GrupoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Docente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Docente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/ActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/ActividadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Grupo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Grupo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/GrupoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/GrupoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadServiceInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadServiceInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/DocenteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/DocenteService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,15 +68,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1OiG2nmsrXvBPMpMYJThGQogOYR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/co/udea/heroes/api" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Actividad 3/ApiRest/ApiRest" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Actividad 3/ApiRest/ApiRest" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -200,6 +210,9 @@
       <workItem from="1567370454028" duration="2706000" />
       <workItem from="1567374298390" duration="4242000" />
       <workItem from="1567379119597" duration="1838000" />
+      <workItem from="1567510092403" duration="1114000" />
+      <workItem from="1567516282688" duration="6387000" />
+      <workItem from="1567541667103" duration="1270000" />
     </task>
     <servers />
   </component>
@@ -219,23 +232,21 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java</url>
-          <line>15</line>
+          <line>25</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java</url>
           <line>8</line>
-          <properties class="co.udea.docente.api.service.ActividadServiceInt" method="getGrupos">
+          <properties class="co.udea.docente.api.service.ActividadServiceInt">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
