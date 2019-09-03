@@ -1,5 +1,6 @@
 package co.udea.docente.api.controller;
 
+import co.udea.docente.api.model.Grupo;
 import co.udea.docente.api.service.ActividadServiceInt;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+
+import java.util.List;
 
 
 @RestController
@@ -25,11 +29,18 @@ public class ActividadController {
         this.actividadService = actividadService;
     }
 
+    public ActividadController() {
+    }
 
-    @GetMapping("/grupos")
+    @GetMapping("/grupos/{idDocente}")
     @ApiOperation(value = "Trae Grupos del docente", response = Page.class)
-    public ResponseEntity<Hero> getHero(@PathVariable("id") int id){
-        log.debug("REST request buscar heroe");
-        return ResponseEntity.ok(heroService.getHero(id));
+    public ResponseEntity<List<Grupo>> getGrupos(@PathVariable("idDocente") int idDocente){
+        log.debug("REST request buscar grupos");
+        try {
+            return ResponseEntity.ok(actividadService.getGrupos(idDocente));
+        }catch(Exception e){
+            System.out.println("el error es " + e.toString());
+            return null;
+        }
     }
 }

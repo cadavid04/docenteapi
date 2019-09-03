@@ -11,7 +11,9 @@ public class Grupo {
 
 
     @Column(name = "id_curso")
-    private String idCurso;
+    private int idCurso;
+    @Column(name = "id_docente")
+    private int idDocente;
     @Column(name = "nombre")
     private String nombre;
     @Column(name = "horas_totales")
@@ -21,8 +23,9 @@ public class Grupo {
     @Column(name = "periodo")
     private String periodo;
 
-    public Grupo(String idCurso, String nombre, int horasTotales, String estado, String periodo) {
+    public Grupo(int idCurso, int idDocente, String nombre, int horasTotales, String estado, String periodo) {
         this.idCurso = idCurso;
+        this.idDocente = idDocente;
         this.nombre = nombre;
         this.horasTotales = horasTotales;
         this.estado = estado;
@@ -37,12 +40,20 @@ public class Grupo {
         this.id = id;
     }
 
-    public String getIdCurso() {
+    public int getIdCurso() {
         return idCurso;
     }
 
-    public void setIdCurso(String idCurso) {
+    public void setIdCurso(int idCurso) {
         this.idCurso = idCurso;
+    }
+
+    public int getIdDocente() {
+        return idDocente;
+    }
+
+    public void setIdDocente(int idDocente) {
+        this.idDocente = idDocente;
     }
 
     public String getNombre() {

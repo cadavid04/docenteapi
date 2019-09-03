@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Actividad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/GrupoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Docente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Docente.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +45,8 @@
         <option value="Kotlin Class" />
         <option value="spring-beans.schema" />
         <option value="Gradle Kotlin DSL Settings" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -195,6 +197,9 @@
       <workItem from="1565708431220" duration="492000" />
       <workItem from="1566223208612" duration="1616000" />
       <workItem from="1566224911717" duration="2669000" />
+      <workItem from="1567370454028" duration="2706000" />
+      <workItem from="1567374298390" duration="4242000" />
+      <workItem from="1567379119597" duration="1838000" />
     </task>
     <servers />
   </component>
@@ -213,6 +218,30 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java</url>
+          <line>8</line>
+          <properties class="co.udea.docente.api.service.ActividadServiceInt" method="getGrupos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
