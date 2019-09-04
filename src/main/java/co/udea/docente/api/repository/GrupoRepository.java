@@ -9,6 +9,6 @@ import java.util.Optional;
 
 @Repository
 public interface GrupoRepository extends JpaRepository<Grupo, String> {
-    public List<Grupo> findAllByIdDocente(int id);
+    public List<Grupo> findAllByIdDocenteAndEstadoEquals(int id, String estado);
 
 }

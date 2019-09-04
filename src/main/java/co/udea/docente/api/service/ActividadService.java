@@ -23,8 +23,8 @@ public class ActividadService implements ActividadServiceInt {
     private final Logger log = LoggerFactory.getLogger(ActividadService.class);
 
     @Override
-    public List<Grupo> getGrupos(int id){
-        return grupoRepository.findAllByIdDocente(id);
+    public List<Grupo> getGrupos(int id, String estado){
+        return grupoRepository.findAllByIdDocenteAndEstadoEquals(id, estado);
     }
 
 

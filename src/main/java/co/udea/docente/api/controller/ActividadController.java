@@ -29,6 +29,6 @@ public class ActividadController {
             @ApiResponse(code = 400, message = "La petición es invalida"),
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
     public ResponseEntity<List<Grupo>> getGrupos(@PathVariable("idDocente") int idDocente) {
-        return ResponseEntity.ok(actividadService.getGrupos(idDocente));}
+        return ResponseEntity.ok(actividadService.getGrupos(idDocente, "Activo"));}
 }
 
