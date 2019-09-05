@@ -17,8 +17,9 @@ public class ActividadService implements ActividadServiceInt {
     public ActividadService(GrupoRepository grupoRepository){
         this.grupoRepository = grupoRepository;
     }
- private GrupoRepository grupoRepository;
- private ActividadRepository actividadRepository;
+
+    private GrupoRepository grupoRepository;
+    private ActividadRepository actividadRepository;
 
     private final Logger log = LoggerFactory.getLogger(ActividadService.class);
 
