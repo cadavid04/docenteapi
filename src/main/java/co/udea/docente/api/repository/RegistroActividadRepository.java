@@ -8,6 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface RegistroActividadRepository extends JpaRepository<RegistroActividad, String> {
@@ -15,4 +16,6 @@ public interface RegistroActividadRepository extends JpaRepository<RegistroActiv
 
     @Query("SELECT SUM (tiempo) FROM RegistroActividad  WHERE id_docente =?1")
     int getSumaTiempo(@Param("id") int id);
+
+    public Optional<RegistroActividad> findById(int id);
 }

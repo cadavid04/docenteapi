@@ -8,10 +8,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,7 +29,7 @@ public class RegistrosActividadController {
             @ApiResponse(code = 200, message = "Los registros fueron buscados", response = Page.class),
             @ApiResponse(code = 400, message = "La petición es invalida"),
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
-    public ResponseEntity<List<RegistroActividad>> getRegistros(@PathVariable("idDocente") int idDocente) {
+    public ResponseEntity<List<RegistroActividad>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
         return ResponseEntity.ok(registrosService.getRegistros(idDocente));}
 
     @GetMapping("/suma/{idDocente}")
@@ -43,4 +40,25 @@ public class RegistrosActividadController {
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
     public int getSuma(@PathVariable("idDocente") int idDocente) {
         return registrosService.getSuma(idDocente);}
+
+    @PostMapping()
+    public ResponseEntity<RegistroActividad> addRegistro(@RequestBody RegistroActividad registroActividad){
+        return ResponseEntity.ok(registrosService.addRegistro(registroActividad));
+    }
+
+    @PutMapping()
+    public ResponseEntity<RegistroActividad> updateRegistro(@RequestBody RegistroActividad registroActividad){
+        return ResponseEntity.ok(registrosService.addRegistro(registroActividad));
+    }
+
+    @DeleteMapping("borrar/{id}")
+    public void deleteRegistro(@PathVariable("id") int id) {
+        registrosService.deleteRegistro(id);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<RegistroActividad> getRegistro(@PathVariable("id") int id) {
+        return ResponseEntity.ok(registrosService.getRegistro(id));
+    }
+
 }
