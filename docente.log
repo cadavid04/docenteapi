@@ -240,3 +240,6 @@ org.postgresql.util.PSQLException: This connection has been closed.
 2019-09-05 18:43:38.973  INFO 2227 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 2019-09-05 18:43:39.433  INFO 2227 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/docente-api'
 2019-09-05 18:43:39.439  INFO 2227 --- [main] co.udea.docente.api.App                  : Started App in 35.547 seconds (JVM running for 38.689)
+2019-09-05 18:45:32.213  INFO 2227 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/docente-api]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-05 18:45:32.214  INFO 2227 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-05 18:45:32.265  INFO 2227 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 51 ms

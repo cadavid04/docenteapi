@@ -33,7 +33,7 @@ public class RegistrosActividadController {
         return ResponseEntity.ok(registrosService.getRegistros(idDocente));}
 
     @GetMapping("/suma/{idDocente}")
-    @ApiOperation(value = "Trae los registros de las actividades", response = Page.class)
+    @ApiOperation(value = "Trae la suma de las actividades reportadas", response = Page.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Los registros fueron buscados", response = Page.class),
             @ApiResponse(code = 400, message = "La petición es invalida"),
