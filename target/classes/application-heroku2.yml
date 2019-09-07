@@ -15,10 +15,10 @@ spring:
 
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://ec2-174-129-227-51.compute-1.amazonaws.com:5432/da6v20naemqhe6
+    url: jdbc:postgresql://ec2-184-73-169-163.compute-1.amazonaws.com:5432/da549s6alatudh
     driver-class-name: org.postgresql.Driver
-    username: wedaroqgefwumb
-    password: af88777c31097b16015e41aefe65c78bb99901b3aa2115f1b8856d1252e15af1
+    username: cdqnsrjjebaxxy
+    password: 609438b5f5a79188129689a463fe21d9f61d102185507d7a31a8420042dc8daf
 
 logging:
   level:

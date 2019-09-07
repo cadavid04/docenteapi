@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/DocenteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroapi.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-07-31.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-01.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroapi.log.2019-08-03.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroesapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/docenteapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/config/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/CORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/controller/HeroController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataBaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataBaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataDuplicatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataDuplicatedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/DataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/exception/GeneralRuntimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/GeneralRuntimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/model/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/repository/HeroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/DocenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/service/HeroService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/heroes/api/service/HeroServiceInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/udea/heroes/api/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/udea/docente/api/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/config/CORSFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/controller/HeroController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataBaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataDuplicatedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/DataNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/exception/GeneralRuntimeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/model/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/repository/HeroRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/service/HeroService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/heroes/api/service/HeroServiceInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/udea/heroes/api/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +36,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Gradle Kotlin DSL Settings" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -99,15 +54,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1OiG2nmsrXvBPMpMYJThGQogOYR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/co/udea/heroes/api" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Actividad 3/ApiRest/ApiRest" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -235,6 +193,14 @@
       <workItem from="1565708431220" duration="492000" />
       <workItem from="1566223208612" duration="1616000" />
       <workItem from="1566224911717" duration="2669000" />
+      <workItem from="1567370454028" duration="2706000" />
+      <workItem from="1567374298390" duration="4242000" />
+      <workItem from="1567379119597" duration="1838000" />
+      <workItem from="1567510092403" duration="1114000" />
+      <workItem from="1567516282688" duration="6387000" />
+      <workItem from="1567541667103" duration="4124000" />
+      <workItem from="1567612938029" duration="7288000" />
+      <workItem from="1567706073147" duration="3845000" />
     </task>
     <servers />
   </component>
@@ -253,6 +219,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java</url>
+          <line>8</line>
+          <properties class="co.udea.docente.api.service.ActividadServiceInt" method="getGrupos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
