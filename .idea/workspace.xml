@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/docenteapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/RegistroActividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/RegistroActividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/docente-api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/RegistroActividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/RegistroActividad.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" afterDir="false" />
     </list>
@@ -40,9 +33,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +49,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.docente-api []">
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.udea.docente.api.App" />
+      <module name="docente-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <method v="2" />
     </configuration>
@@ -114,6 +114,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Compound.Unnamed" />
       <item itemvalue="Maven.docente-api []" />
       <item itemvalue="Spring Boot.Unnamed" />
@@ -133,6 +134,7 @@
       <workItem from="1568950800150" duration="447000" />
       <workItem from="1568951310336" duration="124000" />
       <workItem from="1568951517136" duration="327000" />
+      <workItem from="1568953513177" duration="1634000" />
     </task>
     <servers />
   </component>

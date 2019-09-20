@@ -15,12 +15,12 @@ import java.util.Optional;
 
 @Repository
 public interface RegistroActividadRepository extends JpaRepository<RegistroActividad, String> {
-    public List<RegistroActividad> findAllByIdDocenteOrderByFecha (int idDocente);
+    //public List<RegistroActividad> findAllByIdDocenteOrderByFecha (int idDocente);
 
     @Query("SELECT SUM (tiempo) FROM RegistroActividad  WHERE id_docente =?1")
     int getSumaTiempo(@Param("id") int id);
 
-    @Query("SELECT r.id, r.docente, r.tiempo, r.fecha  FROM RegistroActividad r")
+    @Query("SELECT r.id, r.docente.name, r.tiempo, r.fecha  FROM RegistroActividad r")
     List<RegistroActividad>  getDatosRegistro();
 
 
