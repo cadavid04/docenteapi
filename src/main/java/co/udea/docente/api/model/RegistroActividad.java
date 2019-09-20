@@ -10,12 +10,15 @@ public class RegistroActividad {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "id_docente")
-    private int idDocente;
-    @Column(name = "id_grupo")
-    private int idGrupo;
-    @Column(name = "id_actividad")
-    private int idActividad;
+    @JoinColumn(name = "id_docente", nullable = false)
+    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Docente docente;
+    @JoinColumn(name = "id_grupo", nullable = false)
+    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Grupo grupo;
+    @JoinColumn(name = "id_actividad", nullable = false)
+    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Actividad actividad;
     @Column(name = "tiempo")
     private int tiempo;
     @Column(name = "fecha")
@@ -29,28 +32,28 @@ public class RegistroActividad {
         this.id = id;
     }
 
-    public int getIdDocente() {
-        return idDocente;
+    public Docente getDocente() {
+        return docente;
     }
 
-    public void setIdDocente(int idDocente) {
-        this.idDocente = idDocente;
+    public void setDocente(Docente docente) {
+        this.docente = docente;
     }
 
-    public int getIdGrupo() {
-        return idGrupo;
+    public Grupo getGrupo() {
+        return grupo;
     }
 
-    public void setIdGrupo(int idGrupo) {
-        this.idGrupo = idGrupo;
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
     }
 
-    public int getIdActividad() {
-        return idActividad;
+    public Actividad getActividad() {
+        return actividad;
     }
 
-    public void setIdActividad(int idActividad) {
-        this.idActividad = idActividad;
+    public void setActividad(Actividad actividad) {
+        this.actividad = actividad;
     }
 
     public int getTiempo() {
