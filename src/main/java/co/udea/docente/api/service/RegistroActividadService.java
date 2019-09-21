@@ -20,9 +20,14 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
 
     private final Logger log = LoggerFactory.getLogger(RegistroActividadService.class);
 
-    @Override
+    /*@Override
     public List<RegistroActividad> getRegistros(int idDocente){
         return registroActividadRepository.findAllByIdDocenteOrderByFecha(idDocente);
+    };
+*/
+   // public List<RegistroActividad> getRegistros(int idDocente){
+    public List<Object> getRegistros(int idDocente){
+        return registroActividadRepository.getDatosRegistro(idDocente);
     };
 
     @Override

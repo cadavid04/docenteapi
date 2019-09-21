@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="">
+    <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Actividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Actividad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/ActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/ActividadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Actividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Actividad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadServiceInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadServiceInt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,33 +23,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="heroesapi" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
-        <option value="spring-beans.schema" />
-        <option value="Gradle Kotlin DSL Settings" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,41 +33,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in docente-api" />
+    </enabled-run-configurations>
   </component>
-  <component name="ProjectId" id="1OiG2nmsrXvBPMpMYJThGQogOYR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1R5IziQukpPkzaPjwIlM3WCrWxd" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/co/udea/heroes/api" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Actividad 3/ApiRest/ApiRest" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -92,115 +64,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.udea.docente.api.App" />
       <module name="docente-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in docente-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="docente-api []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="docente-api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in heroesapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heroesapi" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="docente-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.docente.api.App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="heroesapi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.heroes.api.App" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.All in heroesapi" />
-      <item itemvalue="JUnit.All in docente-api" />
-      <item itemvalue="Spring Boot.App" />
-      <item itemvalue="Spring Boot.App (1)" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Maven.docente-api []" />
+      <item itemvalue="Spring Boot.Unnamed" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.All in docente-api" />
-        <item itemvalue="JUnit.All in heroesapi" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
-  <component name="SpringRepositoriesView">
-    <option name="searchInLibraries" value="true" />
-    <option name="showAllRepositoryMethods" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="152a8f19-9815-4c10-afaa-38d499f71d66" name="Default Changelist" comment="" />
-      <created>1563415108909</created>
+      <changelist id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="" />
+      <created>1568950707969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563415108909</updated>
-      <workItem from="1564524019752" duration="1073000" />
-      <workItem from="1564539947668" duration="55000" />
-      <workItem from="1564540372918" duration="122000" />
-      <workItem from="1564540645915" duration="1509000" />
-      <workItem from="1564545303461" duration="1140000" />
-      <workItem from="1564590561066" duration="6212000" />
-      <workItem from="1564609911252" duration="5191000" />
-      <workItem from="1564682629865" duration="4817000" />
-      <workItem from="1564777461895" duration="14236000" />
-      <workItem from="1564858619561" duration="14193000" />
-      <workItem from="1564934984654" duration="1357000" />
-      <workItem from="1565443865055" duration="333000" />
-      <workItem from="1565451963331" duration="575000" />
-      <workItem from="1565657445471" duration="553000" />
-      <workItem from="1565700268547" duration="242000" />
-      <workItem from="1565707344698" duration="331000" />
-      <workItem from="1565708431220" duration="492000" />
-      <workItem from="1566223208612" duration="1616000" />
-      <workItem from="1566224911717" duration="2669000" />
-      <workItem from="1567370454028" duration="2706000" />
-      <workItem from="1567374298390" duration="4242000" />
-      <workItem from="1567379119597" duration="1838000" />
-      <workItem from="1567510092403" duration="1114000" />
-      <workItem from="1567516282688" duration="6387000" />
-      <workItem from="1567541667103" duration="4124000" />
-      <workItem from="1567612938029" duration="7288000" />
-      <workItem from="1567706073147" duration="3845000" />
+      <updated>1568950707969</updated>
+      <workItem from="1568950721598" duration="57000" />
+      <workItem from="1568950800150" duration="447000" />
+      <workItem from="1568951310336" duration="124000" />
+      <workItem from="1568951517136" duration="327000" />
+      <workItem from="1568953513177" duration="1779000" />
+      <workItem from="1569032298616" duration="2803000" />
+      <workItem from="1569035215843" duration="5556000" />
     </task>
     <servers />
   </component>
@@ -219,36 +170,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java</url>
-          <line>8</line>
-          <properties class="co.udea.docente.api.service.ActividadServiceInt" method="getGrupos">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/heroesapi$App.ic" NAME="App Coverage Results" MODIFIED="1564855693647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>co.*</FILTER>
-    </SUITE>
   </component>
 </project>
