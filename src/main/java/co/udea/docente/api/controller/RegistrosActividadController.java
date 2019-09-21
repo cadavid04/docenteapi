@@ -29,7 +29,8 @@ public class RegistrosActividadController {
             @ApiResponse(code = 200, message = "Los registros fueron buscados", response = Page.class),
             @ApiResponse(code = 400, message = "La petición es invalida"),
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
-    public ResponseEntity<List<RegistroActividad>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
+    //public ResponseEntity<List<RegistroActividad>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
+    public ResponseEntity<List<Object>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
         return ResponseEntity.ok(registrosService.getRegistros(idDocente));}
 
     @GetMapping("/suma/{idDocente}")

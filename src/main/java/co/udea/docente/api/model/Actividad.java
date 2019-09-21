@@ -8,7 +8,7 @@ public class Actividad {
     @Column(name = "id")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
-    @Column(name = "name")
+    @Column(name = "descripcion")
     private String name;
 
 

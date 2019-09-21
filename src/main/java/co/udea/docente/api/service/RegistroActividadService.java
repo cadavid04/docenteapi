@@ -25,8 +25,9 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
         return registroActividadRepository.findAllByIdDocenteOrderByFecha(idDocente);
     };
 */
-    public List<RegistroActividad> getRegistros(int idDocente){
-        return registroActividadRepository.getDatosRegistro();
+   // public List<RegistroActividad> getRegistros(int idDocente){
+    public List<Object> getRegistros(int idDocente){
+        return registroActividadRepository.getDatosRegistro(idDocente);
     };
 
     @Override

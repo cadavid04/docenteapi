@@ -25,7 +25,7 @@ public class ActividadController {
     @GetMapping("/grupos/{idDocente}")
     @ApiOperation(value = "Trae Grupos del docente", response = Page.class)
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Los heroes fueron buscados", response = Page.class),
+            @ApiResponse(code = 200, message = "Los grupos fueron buscados", response = Page.class),
             @ApiResponse(code = 400, message = "La petición es invalida"),
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
     public ResponseEntity<List<Grupo>> getGrupos(@PathVariable("idDocente") int idDocente) {
