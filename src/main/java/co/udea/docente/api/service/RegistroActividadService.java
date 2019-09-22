@@ -1,5 +1,6 @@
 package co.udea.docente.api.service;
 
+import co.udea.docente.api.DTO.RegistroActividadDTO;
 import co.udea.docente.api.exception.DataNotFoundException;
 import co.udea.docente.api.model.RegistroActividad;
 import co.udea.docente.api.repository.RegistroActividadRepository;
@@ -26,7 +27,7 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
     };
 */
    // public List<RegistroActividad> getRegistros(int idDocente){
-    public List<Object> getRegistros(int idDocente){
+    public List<RegistroActividadDTO> getRegistros(int idDocente){
         return registroActividadRepository.getDatosRegistro(idDocente);
     };
 

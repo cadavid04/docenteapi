@@ -1,6 +1,7 @@
 package co.udea.docente.api.controller;
 
 
+import co.udea.docente.api.DTO.RegistroActividadDTO;
 import co.udea.docente.api.model.RegistroActividad;
 import co.udea.docente.api.service.RegistroActividadServiceInt;
 import io.swagger.annotations.ApiOperation;
@@ -30,7 +31,7 @@ public class RegistrosActividadController {
             @ApiResponse(code = 400, message = "La petición es invalida"),
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
     //public ResponseEntity<List<RegistroActividad>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
-    public ResponseEntity<List<Object>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
+    public ResponseEntity<List<RegistroActividadDTO>> getRegistrosDocente(@PathVariable("idDocente") int idDocente) {
         return ResponseEntity.ok(registrosService.getRegistros(idDocente));}
 
     @GetMapping("/suma/{idDocente}")
