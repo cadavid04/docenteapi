@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docente.log.2019-09-21.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/DTO/RegistroActividadDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/DTO/RegistroActividadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/DTO/RegistroActividadDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/DTO/RegistroActividadDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/DTO/RegistroActividadDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" afterDir="false" />
@@ -123,6 +123,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="docente-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.docente.api.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="docente-api" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -135,6 +142,7 @@
       <item itemvalue="Compound.Unnamed" />
       <item itemvalue="Maven.docente-api []" />
       <item itemvalue="Spring Boot.Unnamed" />
+      <item itemvalue="Spring Boot.App" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -156,6 +164,7 @@
       <workItem from="1569035215843" duration="5556000" />
       <workItem from="1569082388126" duration="7369000" />
       <workItem from="1569171633038" duration="2281000" />
+      <workItem from="1569183452576" duration="7960000" />
     </task>
     <servers />
   </component>

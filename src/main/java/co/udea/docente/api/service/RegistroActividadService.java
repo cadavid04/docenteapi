@@ -21,12 +21,6 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
 
     private final Logger log = LoggerFactory.getLogger(RegistroActividadService.class);
 
-    /*@Override
-    public List<RegistroActividad> getRegistros(int idDocente){
-        return registroActividadRepository.findAllByIdDocenteOrderByFecha(idDocente);
-    };
-*/
-   // public List<RegistroActividad> getRegistros(int idDocente){
     public List<RegistroActividadDTO> getRegistros(int idDocente){
         return registroActividadRepository.getDatosRegistro(idDocente);
     };
@@ -42,8 +36,8 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
     }
 
     @Override
-    public RegistroActividad updateRegistro(RegistroActividad registroActividad) {
-        return registroActividadRepository.save(registroActividad);
+    public void updateRegistro(RegistroActividadDTO registroActividadDTO) {
+        registroActividadRepository.updateDatosRegistro(registroActividadDTO.getId(), registroActividadDTO.getActividad());
     }
 
     @Override

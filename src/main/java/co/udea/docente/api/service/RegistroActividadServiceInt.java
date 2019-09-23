@@ -10,7 +10,7 @@ public interface RegistroActividadServiceInt {
     public List<RegistroActividadDTO>getRegistros(int idDocente);
     public int getSuma(int idDocente);
     public RegistroActividad addRegistro(RegistroActividad registroActividad);
-    public RegistroActividad updateRegistro(RegistroActividad registroActividad);
+    public void updateRegistro(RegistroActividadDTO registroActividadDTO);
     public void deleteRegistro(int id);
     public RegistroActividad getRegistro(int id);
 }

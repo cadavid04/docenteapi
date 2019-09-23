@@ -49,8 +49,8 @@ public class RegistrosActividadController {
     }
 
     @PutMapping()
-    public ResponseEntity<RegistroActividad> updateRegistro(@RequestBody RegistroActividad registroActividad){
-        return ResponseEntity.ok(registrosService.addRegistro(registroActividad));
+    public void updateRegistro(@RequestBody RegistroActividadDTO registroActividadDTO){
+        registrosService.updateRegistro(registroActividadDTO);
     }
 
     @DeleteMapping("borrar/{id}")

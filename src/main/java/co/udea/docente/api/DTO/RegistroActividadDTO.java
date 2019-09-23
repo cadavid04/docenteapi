@@ -66,6 +66,8 @@ public class RegistroActividadDTO {
         this.tiempo = tiempo;
     }
 
+    public RegistroActividadDTO() {
+    }
 }
 
 
