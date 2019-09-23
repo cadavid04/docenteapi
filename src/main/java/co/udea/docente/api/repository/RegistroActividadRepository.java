@@ -10,6 +10,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -26,8 +27,10 @@ public interface RegistroActividadRepository extends JpaRepository<RegistroActiv
 
     @Transactional
     @Modifying
-    @Query("UPDATE RegistroActividad  SET actividad.id = (SELECT id from Actividad where descripcion=?2) WHERE id =?1" )
-    void updateDatosRegistro(@Param("registroAcividad") int id_registro, @Param("registroAcividad") String descripcion);
+    @Query("UPDATE RegistroActividad  SET actividad.id = (SELECT id from Actividad where descripcion=?2), " +
+            "grupo.id = (SELECT id from Grupo where nombre =?3), tiempo =?4, fecha =?5 WHERE id =?1" )
+    void updateDatosRegistro(@Param("id_registro") int id_registro, @Param("descripcion") String descripcion, @Param("DescGrupo") String DescGrupo, @Param("tiempo") int tiempo, @Param("fecha") Date fecha);
+
 
     public Optional<RegistroActividad> findById(int id);
 

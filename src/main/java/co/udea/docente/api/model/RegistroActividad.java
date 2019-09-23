@@ -11,13 +11,13 @@ public class RegistroActividad {
     private int id;
 
     @JoinColumn(name = "id_docente", nullable = false)
-    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Docente docente;
     @JoinColumn(name = "id_grupo", nullable = false)
-    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne(optional = false, fetch = FetchType.EAGER)
     private Grupo grupo;
     @JoinColumn(name = "id_actividad", nullable = false)
-    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Actividad actividad;
     @Column(name = "tiempo")
     private int tiempo;

@@ -4,14 +4,12 @@
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" afterPath="$PROJECT_DIR$/docente.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/RegistroActividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/RegistroActividad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/RegistroActividad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/RegistroActividad.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadServiceInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadServiceInt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
