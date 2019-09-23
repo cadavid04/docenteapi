@@ -1454,3 +1454,36 @@ org.postgresql.util.PSQLException: ERROR: operator does not exist: character var
 2019-09-22 17:35:02.390  WARN 14832 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token
  at [Source: (PushbackInputStream); line: 1, column: 19] (through reference chain: co.udea.docente.api.DTO.RegistroActividadDTO["docente"])]
 2019-09-22 20:49:27.513  WARN 14832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h7m20s202ms370µs400ns).
+2019-09-22 22:00:13.077  INFO 20340 --- [main] co.udea.docente.api.App                  : Starting App on DESKTOP-NMFGNC6 with PID 20340 (started by keshi in D:\Clases 2019-1\Proyecto Integrador\Proyecto\docenteapi)
+2019-09-22 22:00:13.083  INFO 20340 --- [main] co.udea.docente.api.App                  : The following profiles are active: heroku2
+2019-09-22 22:00:15.672  INFO 20340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-22 22:00:15.873  INFO 20340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183ms. Found 4 repository interfaces.
+2019-09-22 22:00:16.781  INFO 20340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45542147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-22 22:00:16.842  INFO 20340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c4d46e79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-22 22:00:17.705  INFO 20340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-09-22 22:00:17.874  INFO 20340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-22 22:00:17.876  INFO 20340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-22 22:00:18.098  INFO 20340 --- [main] o.a.c.c.C.[.[localhost].[/docente-api]   : Initializing Spring embedded WebApplicationContext
+2019-09-22 22:00:18.100  INFO 20340 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4947 ms
+2019-09-22 22:00:18.576  INFO 20340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-22 22:00:19.889  INFO 20340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-22 22:00:20.210  INFO 20340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-22 22:00:20.478  INFO 20340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-09-22 22:00:20.482  INFO 20340 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-22 22:00:20.932  INFO 20340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-22 22:00:21.273  INFO 20340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-09-22 22:00:21.313  INFO 20340 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-09-22 22:00:21.324  INFO 20340 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@437c4b25
+2019-09-22 22:00:22.919  INFO 20340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-22 22:00:23.686  INFO 20340 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-22 22:00:24.829  WARN 20340 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-22 22:00:25.523  INFO 20340 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-09-22 22:00:25.817  INFO 20340 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-22 22:00:26.804  INFO 20340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-22 22:00:26.839  INFO 20340 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-22 22:00:26.892  INFO 20340 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-09-22 22:00:27.237  INFO 20340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/docente-api'
+2019-09-22 22:00:27.240  INFO 20340 --- [main] co.udea.docente.api.App                  : Started App in 14.948 seconds (JVM running for 15.802)
+2019-09-22 22:03:25.337  INFO 20340 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/docente-api]   : Initializing Spring DispatcherServlet 'dispatcherServlet'

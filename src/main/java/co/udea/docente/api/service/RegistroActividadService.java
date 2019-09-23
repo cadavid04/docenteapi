@@ -37,7 +37,11 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
 
     @Override
     public void updateRegistro(RegistroActividadDTO registroActividadDTO) {
-        registroActividadRepository.updateDatosRegistro(registroActividadDTO.getId(), registroActividadDTO.getActividad());
+        registroActividadRepository.updateDatosRegistro(registroActividadDTO.getId(),
+                registroActividadDTO.getActividad(),
+                registroActividadDTO.getGrupo(),
+                registroActividadDTO.getTiempo(),
+                registroActividadDTO.getFecha());
     }
 
     @Override
