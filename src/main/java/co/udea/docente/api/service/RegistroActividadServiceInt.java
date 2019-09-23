@@ -12,5 +12,5 @@ public interface RegistroActividadServiceInt {
     public RegistroActividad addRegistro(RegistroActividad registroActividad);
     public void updateRegistro(RegistroActividadDTO registroActividadDTO);
     public void deleteRegistro(int id);
-    public RegistroActividad getRegistro(int id);
+    public RegistroActividadDTO getRegistro(int id);
 }

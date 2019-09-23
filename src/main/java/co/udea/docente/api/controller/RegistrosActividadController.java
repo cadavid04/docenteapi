@@ -59,7 +59,7 @@ public class RegistrosActividadController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<RegistroActividad> getRegistro(@PathVariable("id") int id) {
+    public ResponseEntity<RegistroActividadDTO> getRegistro(@PathVariable("id") int id) {
         return ResponseEntity.ok(registrosService.getRegistro(id));
     }
 

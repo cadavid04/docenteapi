@@ -51,10 +51,10 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
     }
 
     @Override
-    public RegistroActividad getRegistro(int id) {
-        Optional<RegistroActividad> posibleHero = registroActividadRepository.findById(id);
-        if(posibleHero.isPresent()){
-            return posibleHero.get();
+    public RegistroActividadDTO getRegistro(int id) {
+        Optional<RegistroActividadDTO> posibleRegistro = registroActividadRepository.getDatoRegistro(id);
+        if(posibleRegistro.isPresent()){
+            return posibleRegistro.get();
         }else {
             log.error("No existe un heroe con ese id");
             throw new DataNotFoundException("No existe un heroe con id: "+ id);}

@@ -30,4 +30,7 @@ public interface RegistroActividadRepository extends JpaRepository<RegistroActiv
     void updateDatosRegistro(@Param("registroAcividad") int id_registro, @Param("registroAcividad") String descripcion);
 
     public Optional<RegistroActividad> findById(int id);
+
+    @Query("SELECT new co.udea.docente.api.DTO.RegistroActividadDTO(r.id, r.docente.name, r.grupo.nombre, r.actividad.name, r.fecha, r.tiempo) "+ "FROM RegistroActividad r WHERE r.id =?1")
+    Optional<RegistroActividadDTO> getDatoRegistro(@Param("id") int id);
 }
