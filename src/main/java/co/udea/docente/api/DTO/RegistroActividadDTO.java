@@ -66,6 +66,14 @@ public class RegistroActividadDTO {
         this.tiempo = tiempo;
     }
 
+    public RegistroActividadDTO(String docente, String grupo, String actividad, Date fecha, int tiempo) {
+        this.docente = docente;
+        this.grupo = grupo;
+        this.actividad = actividad;
+        this.fecha = fecha;
+        this.tiempo = tiempo;
+    }
+
     public RegistroActividadDTO() {
     }
 }

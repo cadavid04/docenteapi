@@ -10,5 +10,5 @@ import java.util.Optional;
 @Repository
 public interface ActividadRepository extends JpaRepository<Actividad, String>{
     public List<Actividad> findAllById(int idActividad);
-
+    public Actividad findByNameEquals(String nombre);
 }

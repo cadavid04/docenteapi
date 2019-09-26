@@ -44,8 +44,8 @@ public class RegistrosActividadController {
         return registrosService.getSuma(idDocente);}
 
     @PostMapping()
-    public ResponseEntity<RegistroActividad> addRegistro(@RequestBody RegistroActividad registroActividad){
-        return ResponseEntity.ok(registrosService.addRegistro(registroActividad));
+    public void addRegistro(@RequestBody RegistroActividadDTO registroActividadDTO){
+         registrosService.addRegistro(registroActividadDTO);
     }
 
     @PutMapping()
