@@ -5,6 +5,8 @@ import java.util.Date;
 @Entity
 @Table(name = "registroactividades")
 public class RegistroActividad {
+
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
     private int id;

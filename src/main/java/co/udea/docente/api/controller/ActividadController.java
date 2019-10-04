@@ -1,5 +1,6 @@
 package co.udea.docente.api.controller;
 
+import co.udea.docente.api.model.Actividad;
 import co.udea.docente.api.model.Grupo;
 import co.udea.docente.api.service.ActividadServiceInt;
 import io.swagger.annotations.ApiOperation;
@@ -10,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
+import javax.xml.ws.Response;
 import java.util.List;
 
 
@@ -30,5 +32,15 @@ public class ActividadController {
             @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
     public ResponseEntity<List<Grupo>> getGrupos(@PathVariable("idDocente") int idDocente) {
         return ResponseEntity.ok(actividadService.getGrupos(idDocente, "Activo"));}
+
+    @GetMapping("/actividad/{idDocente}")
+    @ApiOperation(value = "Trae lista de actividades", response = Page.class)
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Las actividades fueron buscados", response = Page.class),
+            @ApiResponse(code = 400, message = "La petición es invalida"),
+            @ApiResponse(code = 500, message = "Error interno al procesar la respuesta")})
+    public  ResponseEntity<List<Actividad>> getActividades()  {
+        return ResponseEntity.ok(actividadService.getActividades());
+    }
 }
 

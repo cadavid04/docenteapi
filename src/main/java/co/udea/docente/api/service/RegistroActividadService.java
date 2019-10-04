@@ -59,10 +59,9 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
                 actividad,
                 registroActividadDTO.getTiempo(),
                 registroActividadDTO.getFecha());
-        registroActividad.setId(5);
-
         registroActividadRepository.save(registroActividad);
-        }
+    }
+
 
     @Override
     public void updateRegistro(RegistroActividadDTO registroActividadDTO) {
@@ -89,7 +88,7 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
         if(posibleRegistro.isPresent()){
             return posibleRegistro.get();
         }else {
-            log.error("No existe un heroe con ese id");
-            throw new DataNotFoundException("No existe un heroe con id: "+ id);}
+            log.error("No existe un registro con ese id");
+            throw new DataNotFoundException("No existe un registro con id: "+ id);}
     }
 }
