@@ -83,6 +83,16 @@ public class RegistroActividadService implements RegistroActividadServiceInt {
     }
 
     @Override
+    public List<RegistroActividadDTO> getDatoRegistroDocenteGrupo(String nombreDocente, String nombreGrupo) {
+        List<RegistroActividadDTO> posibleRegistro = registroActividadRepository.getDatoRegistroDocenteGrupo(nombreDocente, nombreGrupo);
+        if (!posibleRegistro.isEmpty()) {
+            return posibleRegistro;
+        } else {
+            log.error("No existe un registro");
+            throw new DataNotFoundException("No existe un registro para los datos suministrados");
+        }
+    }
+    @Override
     public RegistroActividadDTO getRegistro(int id) {
         Optional<RegistroActividadDTO> posibleRegistro = registroActividadRepository.getDatoRegistro(id);
         if(posibleRegistro.isPresent()){
