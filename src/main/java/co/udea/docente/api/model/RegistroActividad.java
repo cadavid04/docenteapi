@@ -5,9 +5,10 @@ import java.util.Date;
 @Entity
 @Table(name = "registroactividades")
 public class RegistroActividad {
+
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @JoinColumn(name = "id_docente", nullable = false)
@@ -70,5 +71,17 @@ public class RegistroActividad {
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
+    }
+
+    public RegistroActividad(Docente docente, Grupo grupo, Actividad actividad, int tiempo, Date fecha) {
+        this.docente = docente;
+        this.grupo = grupo;
+        this.actividad = actividad;
+        this.tiempo = tiempo;
+        this.fecha = fecha;
+    }
+
+    public RegistroActividad() {
+        super();
     }
 }

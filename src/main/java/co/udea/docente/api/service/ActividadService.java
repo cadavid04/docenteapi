@@ -14,8 +14,9 @@ import java.util.Optional;
 @Service
 public class ActividadService implements ActividadServiceInt {
 
-    public ActividadService(GrupoRepository grupoRepository){
+    public ActividadService(GrupoRepository grupoRepository, ActividadRepository actividadRepository) {
         this.grupoRepository = grupoRepository;
+        this.actividadRepository = actividadRepository;
     }
 
     private GrupoRepository grupoRepository;
@@ -26,6 +27,11 @@ public class ActividadService implements ActividadServiceInt {
     @Override
     public List<Grupo> getGrupos(int id, String estado){
         return grupoRepository.findAllByIdDocenteAndEstadoEquals(id, estado);
+    }
+
+    @Override
+    public List<Actividad> getActividades(){
+        return actividadRepository.findAll();
     }
 
 

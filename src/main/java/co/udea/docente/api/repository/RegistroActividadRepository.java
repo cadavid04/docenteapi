@@ -25,6 +25,7 @@ public interface RegistroActividadRepository extends JpaRepository<RegistroActiv
     @Query("SELECT new co.udea.docente.api.DTO.RegistroActividadDTO(r.id, r.docente.name, r.grupo.nombre, r.actividad.name, r.fecha, r.tiempo) "+ "FROM RegistroActividad r WHERE r.docente.id =?1")
     List<RegistroActividadDTO>getDatosRegistro(@Param("id") int id_docente);
 
+
     @Transactional
     @Modifying
     @Query("UPDATE RegistroActividad  SET actividad.id = (SELECT id from Actividad where descripcion=?2), " +
@@ -33,6 +34,9 @@ public interface RegistroActividadRepository extends JpaRepository<RegistroActiv
 
 
     public Optional<RegistroActividad> findById(int id);
+
+    @Query("SELECT new co.udea.docente.api.DTO.RegistroActividadDTO(r.id, r.docente.name, r.grupo.nombre, r.actividad.name, r.fecha, r.tiempo) " + "FROM RegistroActividad r WHERE r.docente.name =?1 and r.grupo.nombre =?2")
+    List<RegistroActividadDTO> getDatoRegistroDocenteGrupo(@Param("nombreDocente") String nombreDocente, @Param("nombreGrupo") String nombreGrupo);
 
     @Query("SELECT new co.udea.docente.api.DTO.RegistroActividadDTO(r.id, r.docente.name, r.grupo.nombre, r.actividad.name, r.fecha, r.tiempo) "+ "FROM RegistroActividad r WHERE r.id =?1")
     Optional<RegistroActividadDTO> getDatoRegistro(@Param("id") int id);

@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface DocenteRepository extends JpaRepository<Docente, String>{
-
+    public Docente findByNameEquals(String nombre);
 }

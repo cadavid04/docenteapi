@@ -10,5 +10,8 @@ import java.util.Optional;
 @Repository
 public interface GrupoRepository extends JpaRepository<Grupo, String> {
     public List<Grupo> findAllByIdDocenteAndEstadoEquals(int id, String estado);
+    public Grupo findByNombreEquals(String nombre);
 
+    @Override
+    Optional<Grupo> findById(String s);
 }
