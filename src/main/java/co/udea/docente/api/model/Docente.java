@@ -15,7 +15,7 @@ public class Docente {
     }
     public void bug (){
      boolean varia = true;   
-        if(varia){
+        if(null=null){
         
         }
     }
