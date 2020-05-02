@@ -13,6 +13,12 @@ public class Docente {
     public Docente(){
 
     }
+    public void bug (){
+     boolean varia = true;   
+        if(varia){
+        
+        }
+    }
 
     public Docente(int id, String name) {
         this.id = id;
