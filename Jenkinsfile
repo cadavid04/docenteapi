@@ -26,10 +26,8 @@ pipeline {
                     bat 'mvn sonar:sonar'
                 }     
             }
-        }
-         stage("Quality Gate") {
             steps {
-                timeout(time: 1, unit: 'HOURS') {
+                timeout(time: 1, unit: 'MINUTES') {
                 waitForQualityGate abortPipeline: true }
             }
         }
