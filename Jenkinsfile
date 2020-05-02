@@ -26,6 +26,7 @@ pipeline {
                     bat 'mvn sonar:sonar'
                 }     
             }
+        stage('Quality Gate') {
             steps {
                 timeout(time: 1, unit: 'MINUTES') {
                 def qg = waitForQualityGate()
@@ -35,7 +36,6 @@ pipeline {
                 }
             }
         }
-
         stage('Package Artifact') {
             steps {
                 bat 'mvn package'
