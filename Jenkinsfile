@@ -30,7 +30,7 @@ pipeline {
 	    
 	 stage('Sonar scan result check') {
             steps {
-                timeout(time: 5, unit: 'MINUTES') {
+                timeout(time: 1, unit: 'MINUTES') {
                     retry(3) {
                         script {
                             def qg = waitForQualityGate()
