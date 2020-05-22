@@ -33,5 +33,11 @@ pipeline {
                 bat 'mvn package'
             }
         }
+	    stage('Deploy stage') {
+            steps {
+                echo 'Deployment...'
+               bat 'mvn -f project/pom.xml appengine:deploy -Dapp.deploy.project=acn-shelf-check -Dapp.deploy.version=v1'
+            }
+        }
     }
 }
