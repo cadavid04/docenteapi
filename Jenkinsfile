@@ -28,7 +28,7 @@ pipeline {
             }
         }
 
-        stage('Sonar scan result check') {
+        stage('Quality Gate') {
             steps {
                 timeout(time: 1, unit: 'MINUTES') {
                     retry(3) {
